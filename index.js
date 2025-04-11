@@ -16,15 +16,15 @@ app.get('/numero', (req, res) => {
 })
 
 app.get('/usuario', (req, res) => {
-    res.send({"nombre": "Ana", "edad": 25 });
+    res.json({"nombre": "Ana", "edad": 25 });
 })
 
 app.get('/productos', (req, res) => {
-    res.send([ "Mouse", "Teclado", "Monitor" ]);
+    res.json([ "Mouse", "Teclado", "Monitor" ]);
 })
 
 app.get('/materias', (req, res) => {
-    res.send([ { "nombre": "Matemática" }, { "nombre": "Lengua" } ] );
+    res.json([ { "nombre": "Matemática" }, { "nombre": "Lengua" } ] );
 })
 
 app.listen(port, () => {
