@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
-  },"type": "module"
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9"
+  },
+  "type": "module"
 }
